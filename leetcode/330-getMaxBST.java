@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.*;
 class Node {
 	public int val;
 	public Node left;
@@ -14,7 +14,7 @@ class ReturnType {
     public Node maxBSTHead;
     public int maxBSTSize;
 	
-    public ReturnTyoe(Node maxBSTHead,int maxBSTSize,int min,int max){
+    public ReturnType(Node maxBSTHead,int maxBSTSize,int min,int max){
         this.maxBSTHead = maxBSTHead;
 		this.maxBSTSize = maxBSTSize;
 		this.min = min;
@@ -24,7 +24,7 @@ class ReturnType {
 
 public class Solution {
 	//获取当前结点X的maxBST
-	//情况1，maxBST是X的左子树
+	//情况1，maxBST来自（注意，不是 “是“）X的左子树
 	//情况2，maxBST是X的右子树
 	//情况3，maxBST是X为根的整棵树
 	public ReturnType process(Node X){
@@ -40,10 +40,10 @@ public class Solution {
 		ReturnType right = process(X.right);
 		//信息整合
 		//如果是情况1或情况2
-		maxBSTHead = (left.maxBSTSize >= right.maxBSTSize) ? X.left : X.right;
-		maxBSTSize = (maxBSTHead == X.left) ? left.maxBSTSize : right.maxBSTSize;
-		min = Math.min(X.val, Math.min(left.min, right.min));
-		max = Math.max(X.val, Math.max(left.max, right.min));
+		Node maxBSTHead = (left.maxBSTSize >= right.maxBSTSize) ? X.left : X.right;
+		int maxBSTSize = (maxBSTHead == X.left) ? left.maxBSTSize : right.maxBSTSize;
+		int min = Math.min(X.val, Math.min(left.min, right.min));
+		int max = Math.max(X.val, Math.max(left.max, right.min));
 		//如果是情况3，有两个条件
 		//条件1，X的左子树和右子树都是maxBST
 		//条件2，X.val 比左子树的val都大，比右子树的都小
@@ -51,12 +51,12 @@ public class Solution {
 		if(left.maxBSTHead == X.left && right.maxBSTHead == X.right 
 			&& X.val > left.max && X.val < right.min){
 				maxBSTHead = X;
-				maxBSTSize = lef.maxBSTSize + right.maxBSTSize + 1;
+				maxBSTSize = left.maxBSTSize + right.maxBSTSize + 1;
 			}
 		//返回ReturnTyoe
 		return new ReturnType(maxBSTHead, maxBSTSize, min, max);		
 	}	
 	public Node getMaxBST(Node head){
-		return process().maxBSTHead;
+		return process(head).maxBSTHead;
 	}
 }
