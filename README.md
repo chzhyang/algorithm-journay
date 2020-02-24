@@ -26,3 +26,9 @@ LeetCode、剑指offer、《程序员代码面试指南》左程云
 |左程云|按之字形打印二叉树|中等|Java|[分析](https://blog.nowcoder.net/n/12573b569cfd4893870f0c4c379d7fe4)|
 |左程云|二叉树层次遍历，按层输出|简单|Java|[分析](https://blog.nowcoder.net/n/83ce35002fc0408582b1ca7db51793c9)|
 |左程云|非递归二叉树遍历|中等|Java|[分析](https://blog.nowcoder.net/n/21c1da62b1774e639efd238762baf76a)|
+
+
+## 3.字符串
+|编号|题目|难度|实现|分析|
+|-|-|-|-|-|
+|其他|0-z表示的36进制加法|中等|[Java](https://github.com/chzhyang/Algorithms/blob/master/others/36jinzhi.java)|分析|
