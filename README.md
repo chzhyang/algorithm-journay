@@ -16,6 +16,7 @@ LeetCode、剑指offer、《程序员代码面试指南》左程云
 ## 2. 二叉树
 |编号|题目|难度|实现|分析|
 |-|-|-|-|-|
+|LeetCode339|二叉树分裂，求最大size乘积|中等|Java|[分析](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/solution/er-cha-shu-fen-lie-qiu-zui-da-sizecheng-ji-by-chen/)|
 |LeetCode236|二叉树的最近公共祖先|中等|Java|[分析](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/er-cha-shu-de-zui-jin-gong-gong-zu-xian-by-chengzh/)|
 |LeetCode235|二叉搜索树的最近公共祖先|简单|Java|[分析](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-zhong-liang-jie-dian-de-zui-jin/)|
 |leetcode330|获取最大二叉搜索子树|困难|[Java](https://github.com/chzhyang/Algorithms/blob/master/leetcode/330-maxBST.java)|[分析](https://blog.nowcoder.net/n/f52b198de9e54731a5de5b37be961de3)|
