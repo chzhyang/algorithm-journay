@@ -16,6 +16,7 @@ LeetCode、剑指offer、《程序员代码面试指南》左程云
 ## 2. 二叉树
 |编号|题目|难度|实现|分析|
 |-|-|-|-|-|
+|LeetCode662|二叉树最大宽度|中等|Java|[分析](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/solution/er-cha-shu-qiu-zui-da-kuan-du-by-chengzhiyang/)|
 |LeetCode339|二叉树分裂，求最大size乘积|中等|Java|[分析](https://LeetCode-cn.com/problems/maximum-product-of-splitted-binary-tree/solution/er-cha-shu-fen-lie-qiu-zui-da-sizecheng-ji-by-chen/)|
 |LeetCode330|获取最大二叉搜索子树|困难|[Java](https://github.com/chzhyang/Algorithms/blob/master/LeetCode/330-maxBST.java)|[分析](https://blog.nowcoder.net/n/f52b198de9e54731a5de5b37be961de3)|
 |LeetCode236|二叉树的最近公共祖先|中等|Java|[分析](https://LeetCode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/er-cha-shu-de-zui-jin-gong-gong-zu-xian-by-chengzh/)|
@@ -34,3 +35,8 @@ LeetCode、剑指offer、《程序员代码面试指南》左程云
 |-|-|-|-|-|
 |LeetCode5|最长回文子串|中等|Java|[分析](https://LeetCode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-chengzhiyang/)|
 |其他|0-z表示的36进制加法|中等|[Java](https://github.com/chzhyang/Algorithms/blob/master/others/36jinzhi.java)|分析|
+
+## 4.其他
+|编号|题目|难度|实现|分析|
+|-|-|-|-|-|
+|LeetCode146|LRU缓存机制|中等|Java|[分析](https://leetcode-cn.com/problems/lru-cache/solution/shi-xian-lruhuan-cun-ji-zhi-by-chengzhiyang/)|
