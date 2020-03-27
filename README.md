@@ -1,7 +1,7 @@
-# 算法
-LeetCode、剑指offer、《程序员代码面试指南》左程云  
+[toc]
+题目来自LeetCode、剑指offer、《程序员代码面试指南》左程云、笔面试题等 
 
-## 1. 链表
+# 1. 链表
 |编号|题目|难度|实现|分析|
 |-|-|-|-|-|
 |LeetCode92|反转m-n部分的链表|中等|Java|[分析](https://blog.nowcoder.net/n/62e0adb196094d3e9f33ceb1f0a0a144)|
@@ -13,7 +13,7 @@ LeetCode、剑指offer、《程序员代码面试指南》左程云
 |左程云|链表相交+环|困难|[Java](https://github.com/chzhyang/Algorithms/blob/master/dataStructure/list/IntersectList.java)|[分析](https://blog.nowcoder.net/n/28629cbeadfd4b11987523e98fbb5f8e)|
 
 
-## 2. 二叉树
+# 2. 二叉树
 |编号|题目|难度|实现|分析|
 |-|-|-|-|-|
 |LeetCode662|二叉树最大宽度|中等|Java|[分析](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/solution/er-cha-shu-qiu-zui-da-kuan-du-by-chengzhiyang/)|
@@ -30,13 +30,20 @@ LeetCode、剑指offer、《程序员代码面试指南》左程云
 |左程云|非递归二叉树遍历|中等|Java|[分析](https://blog.nowcoder.net/n/21c1da62b1774e639efd238762baf76a)|
 
 
-## 3.字符串
+# 3.字符串
 |编号|题目|难度|实现|分析|
 |-|-|-|-|-|
+|LeetCode3|最长无重复子串|中等|Java|[分析](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-chuan-de-zui-chang-zi-chuan-by-c/)|
 |LeetCode5|最长回文子串|中等|Java|[分析](https://LeetCode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-chengzhiyang/)|
 |其他|0-z表示的36进制加法|中等|[Java](https://github.com/chzhyang/Algorithms/blob/master/others/36jinzhi.java)|分析|
 
-## 4.其他
+# 4.二分查找
+|编号|题目|难度|实现|分析|
+|-|-|-|-|-|
+|招行信用卡|二分法求下限|中等|Java|[分析](https://blog.nowcoder.net/n/6452afdfd9b1433bba1abfaa72c51b6d)|
+
+# 5.其他
 |编号|题目|难度|实现|分析|
 |-|-|-|-|-|
 |LeetCode146|LRU缓存机制|中等|Java|[分析](https://leetcode-cn.com/problems/lru-cache/solution/shi-xian-lruhuan-cun-ji-zhi-by-chengzhiyang/)|
+
