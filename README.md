@@ -2,7 +2,8 @@
 
 |Type|Source|Topic|Difficulty|Solutions|
 |-|-|-|-|-|
-|Sort|Nowcoder|计算数组的小和|Medium|[C++](https://www.nowcoder.com/practice/edfe05a1d45c4ea89101d936cac32469)|
+|Sort|Nowcoder|计算数组的小和|Hard|[C++](https://www.nowcoder.com/practice/edfe05a1d45c4ea89101d936cac32469)|
+|Sort|Leetcode|493-reverse pairs|Hard|[C++](https://leetcode.cn/problems/reverse-pairs/submissions/526886034/)|
 
 # 链表
 |编号|题目|难度|实现|分析|
