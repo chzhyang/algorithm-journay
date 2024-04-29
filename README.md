@@ -3,7 +3,9 @@
 |Type|Source|Topic|Difficulty|Solutions|
 |-|-|-|-|-|
 |Sort|Nowcoder|计算数组的小和|Hard|[C++](https://www.nowcoder.com/practice/edfe05a1d45c4ea89101d936cac32469)|
-|Sort|Leetcode|493-reverse pairs|Hard|[C++](https://leetcode.cn/problems/reverse-pairs/submissions/526886034/)|
+|Sort|Leetcode|493.reverse pairs|Hard|[C++](https://leetcode.cn/problems/reverse-pairs/submissions/526886034/)|
+|Sort|Leetcode|912.sort an array|Medium|random quick sort+ Dutch flag question[C++](https://leetcode.cn/problems/sort-an-array/submissions/527239164/)|
+|Sort|Leetcode|215.Kth Largest Element in an Array|Medium|[C++](https://leetcode.cn/problems/kth-largest-element-in-an-array/submissions/528009294/)|
 
 # 链表
 |编号|题目|难度|实现|分析|
