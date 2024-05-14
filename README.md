@@ -6,6 +6,10 @@
 |Sort|Leetcode|493.reverse pairs|Hard|[C++](https://leetcode.cn/problems/reverse-pairs/submissions/526886034/)|
 |Sort|Leetcode|912.sort an array|Medium|random quick sort+ Dutch flag question[C++](https://leetcode.cn/problems/sort-an-array/submissions/527239164/)|
 |Sort|Leetcode|215.Kth Largest Element in an Array|Medium|[C++](https://leetcode.cn/problems/kth-largest-element-in-an-array/submissions/528009294/)|
+|sliding window|Leetcode|209. 长度最小的子数组|Medium|[C++](https://leetcode.cn/problems/minimum-size-subarray-sum/submissions/531745786/)|
+|sliding window|Leetcode|3. 无重复字符的最长子串|Hard|[C++](https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/531780277/)|
+|sliding window|Leetcode|76. 最小覆盖子串|Medium|[C++](https://leetcode.cn/problems/minimum-window-substring/submissions/531787368/)|
+
 
 # 链表
 |编号|题目|难度|实现|分析|
